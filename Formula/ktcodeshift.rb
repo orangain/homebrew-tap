@@ -5,7 +5,7 @@ class Ktcodeshift < Formula
   desc "ktcodeshift is an experimental Kotlin port of jscodeshift."
   homepage ""
   url "https://github.com/orangain/ktcodeshift/releases/download/0.1.0/ktcodeshift-0.1.0.tar.gz"
-  sha256 "bba2b113e374359ed9814321db9d1e1c690768bbe429d7ea308e3d013055fffe"
+  sha256 "e3cd77af3842a7746b6b5957abe41b51b6422c603aa17cf905e68151e46fbb19"
   license "MIT"
 
   # depends_on "cmake" => :build
