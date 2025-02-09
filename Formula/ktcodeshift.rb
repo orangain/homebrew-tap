@@ -8,7 +8,7 @@ class Ktcodeshift < Formula
   depends_on "openjdk" => [:build, :optional]
 
   def install
-    rm_f Dir["bin/*.bat"]
+    rm(Dir["bin/*.bat"])
     libexec.install %w[bin lib]
     env = Language::Java.overridable_java_home_env
     (bin/"ktcodeshift").write_env_script libexec/"bin/ktcodeshift", env
