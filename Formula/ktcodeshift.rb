@@ -1,8 +1,8 @@
 class Ktcodeshift < Formula
   desc "Toolkit for running codemods over multiple Kotlin files inspired by jscodeshift"
   homepage "https://github.com/orangain/ktcodeshift"
-  url "https://github.com/orangain/ktcodeshift/releases/download/0.3.4/ktcodeshift-0.3.4.tar.gz"
-  sha256 "00b323ddfe801615ae031a7666c77aafb4b7fd3e4bacbc1b6b7f0486a5796682"
+  url "https://github.com/orangain/ktcodeshift/releases/download/0.4.0/ktcodeshift-0.4.0.tar.gz"
+  sha256 "e2ca10ef8691538b0ac182aed0a4285536fdafcb71269cc8c0c988229b09e80c"
   license "MIT"
 
   depends_on "openjdk" => [:build, :optional]
